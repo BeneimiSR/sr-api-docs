@@ -6,7 +6,7 @@ The two most important endpoints of the Payment API are a
 - [store name].api.myshoprenter.hu/billing/recurringCharges
 - [store name].api.myshoprenter.hu/billing/oneTimeCharges
 
-To access them, you need the username/password pair obtained during the installation of the given application, with which we also use any other Shoprenter API resource.
+To access them, you need an access token. For details on how to obtain one, see [Acquiring an access token](../../development/api/12_acquiring_an_access_token.md).
 
 Before using the Payment API - if we already have an application - we must apply to partnersupport@shoprenter.hu
 a username and a token via email address. ShopRenter employees register the request
