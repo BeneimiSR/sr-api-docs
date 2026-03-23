@@ -3,8 +3,8 @@
 The Payment API can only be used to sell Shoprenter applications. Consequently, in order to access and create payments, you need access to the Shoprenter API.
 
 The two most important endpoints of the Payment API are a
-- [store name].api.myshoprenter.hu/billing/recurringCharges
-- [store name].api.myshoprenter.hu/billing/oneTimeCharges
+- [store name].api2.myshoprenter.hu/api/billing/recurringCharges
+- [store name].api2.myshoprenter.hu/api/billing/oneTimeCharges
 
 To access them, you need an access token. For details on how to obtain one, see [Acquiring an access token](../../development/api/12_acquiring_an_access_token.md).
 
@@ -29,8 +29,8 @@ All relevant data can be modified in the "My Account" menu item on the test shop
 
 It is recommended to store the identifier of the prepared payments, which
 the
-- [shop name].api.myshoprenter.hu/billing/recurringCharges ( [Recurring charge payment](../docs/i_recurring_charge.md) )
-- [shop name].api.myshoprenter.hu/billing/oneTimeCharges ( [One-time charge payment](../docs/g_one_time_charge.md) )
+- [shop name].api2.myshoprenter.hu/api/billing/recurringCharges ( [Recurring charge payment](../docs/i_recurring_charge.md) )
+- [shop name].api2.myshoprenter.hu/api/billing/oneTimeCharges ( [One-time charge payment](../docs/g_one_time_charge.md) )
 
 they arrive in endpoint responses.
 
